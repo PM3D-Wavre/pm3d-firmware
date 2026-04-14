@@ -1,1 +1,6 @@
 
+{
+  "version": "1.0",
+  "bin": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/quais/Ecran_v1_0.bin",
+  "notes": "Version initiale écran quai OTA"
+}
