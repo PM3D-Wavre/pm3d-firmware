@@ -3,7 +3,7 @@ latest_url=https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signa
 [
   {
     "name": "PM3D Feu SNCB",
-    "version": "v1.0 BLEUE",
+    "version": "v1.0 Bleue",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0_Bleue_.ino.bin"
   },
 {
@@ -18,7 +18,7 @@ latest_url=https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signa
   }, 
 {
     "name": "PM3D Feu SNCB",
-    "version": "v1.0 ORANGE",
+    "version": "v1.0 Orange",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/V_1_0_orange.ino.bin"
   }
 ]
