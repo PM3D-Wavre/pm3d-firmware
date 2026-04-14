@@ -1,5 +1,5 @@
 latest=1.0.0 bleue
-latest_url=https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0_Bleue_.ino.bin
+latest_url=https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_bleue.ino.bin
 [
   {
     "name": "Ecran de quai",
