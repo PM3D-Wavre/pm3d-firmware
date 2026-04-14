@@ -9,12 +9,12 @@ latest_url=https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran
 {
     "name": "Ecran de quai",
     "version": "v1.0 Jaune et noire",
-    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0_JAUNE_NOIR.ino.bin"
+    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Jaune_noir.ino.bin"
   }, 
 {
     "name": "Ecran de quai",
     "version": "v1.0 Verte",
-    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0_VERTE.ino.bin"
+    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Verte.ino.bin"
   }, 
 {
     "name": "Ecran de quai",
