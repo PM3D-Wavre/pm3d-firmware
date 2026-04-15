@@ -1,27 +1,27 @@
 {
   "latest": {
-    "version": "v1.0 Bleue",
+    "version": "V1.0 Bleue",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_bleue.ino.bin"
   },
   "versions": [
     {
       "name": "Ecran de quai",
-      "version": "v1.0 Bleue",
+      "version": "V1.0 Bleue",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_bleue.ino.bin"
     },
     {
       "name": "Ecran de quai",
-      "version": "v1.0 Jaune et noir",
+      "version": "V1.0 Jaune et noir",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Jaune_noir.ino.bin"
     },
     {
       "name": "Ecran de quai",
-      "version": "v1.0 Verte",
+      "version": "V1.0 Verte",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Verte.ino.bin"
     },
     {
       "name": "Ecran de quai",
-      "version": "v1.0 Orange",
+      "version": "V1.0 Orange",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Orange.ino.bin"
     }
   ]
