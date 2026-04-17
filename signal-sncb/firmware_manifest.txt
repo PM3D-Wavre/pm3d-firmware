@@ -1,9 +1,9 @@
 latest=V1.0
-latest_url=https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0.ino.bin
+latest_url=https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0_simplified.ino.bin
 [
   {
     "name": "PM3D Feu SNCB",
     "version": "V1.0",
-    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0.ino.bin"
+    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0_simplified.ino.bin"
   },
 ]
