@@ -4,7 +4,7 @@
     "version": "1.0",
     "theme": "Bleu PM3D",
     "notes": "Version stable de base.",
-    "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_Passage_Niveau_WIFI.ino"
+    "url": "pn/PM3D_Passage_Niveau_WIFI.ino.bin"
   },
   {
     "name": "PM3D Passage à niveau - Multithèmes",
