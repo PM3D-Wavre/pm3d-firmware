@@ -2,15 +2,15 @@
   {
     "name": "PM3D Passage à niveau - v1.1 Originale",
     "version": "1.0",
-    "theme": "Bleu PM3D",
+    "theme": "PM3D",
     "notes": "Version stable de base.",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_Passage_Niveau_WIFI.ino.bin"
   },
   {
     "name": "PM3D Passage à niveau - Multithèmes",
-    "version": "1.0",
-    "theme": "Orange PM3D",
-    "notes": "Même version avec thème orange.",
-    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/signal-sncb/PM3D_Feu_SNCB_v1_0_simplified.ino.bin"
+    "version": "1.1",
+    "theme": "Multi PM3D",
+    "notes": "Multicolor",
+    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_Passage_Niveau_WIFI_OTA_THEME.ino.bin"
   }
 ]
