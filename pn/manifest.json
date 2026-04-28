@@ -1,7 +1,7 @@
 [
   {
     "name": "PM3D Passage à niveau - v1.1 Originale",
-    "version": "1.0",
+    "version": "1.1",
     "theme": "PM3D",
     "notes": "Version stable de base.",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_Passage_Niveau_WIFI.ino.bin"
