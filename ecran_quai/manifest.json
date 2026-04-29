@@ -3,5 +3,12 @@
     "version": "V1.0 du 15/04/2026 by PM3D",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Theme_Menu.ino.bin"
   },
+  {
+    "name": "Version Multithèmes",
+    "version": "1.1",
+    "theme": "Multicolors",
+    "notes": "ajout de fonctionnalités et embélissement d'interface",
+    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_Passage_Niveau_WIFI_OTA_THEME.ino.bin"
+  }
    }
 
