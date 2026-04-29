@@ -51,6 +51,7 @@ String currentLang = "FR";
 int oledSdaPin = DEFAULT_SDA_PIN;
 int oledSclPin = DEFAULT_SCL_PIN;
 bool displayOk = false;
+int screenBrightness = 255;
 unsigned long bootStartMs = 0;
 bool otaValidationDeferred = false;
 
@@ -404,6 +405,7 @@ void saveConfig() {
 
   prefs.putInt("oledSDA", oledSdaPin);
   prefs.putInt("oledSCL", oledSclPin);
+  prefs.putInt("oledBright", screenBrightness);
   prefs.putString("otassid", otaSSID);
   prefs.putString("otapass", otaPassword);
   prefs.putString("otaManUrl", otaManifestUrl);
@@ -485,6 +487,9 @@ void loadConfig() {
 
   oledSdaPin = prefs.getInt("oledSDA", DEFAULT_SDA_PIN);
   oledSclPin = prefs.getInt("oledSCL", DEFAULT_SCL_PIN);
+  screenBrightness = prefs.getInt("oledBright", 255);
+  if (screenBrightness < 0) screenBrightness = 0;
+  if (screenBrightness > 255) screenBrightness = 255;
   otaSSID = prefs.getString("otassid", "");
   otaPassword = prefs.getString("otapass", "");
   otaWifiStatus = prefs.getString("otawstat", "Aucune connexion Internet");
@@ -572,8 +577,10 @@ String t_preview()     { return currentLang == "NL" ? "Voorbeeld" : "Aperçu"; }
 
 String t_device_title() { return currentLang == "NL" ? "Scherminstellingen" : "Réglages écran"; }
 String t_device_name()  { return currentLang == "NL" ? "Naam van het scherm" : "Nom de l ecran"; }
+String t_brightness()   { return currentLang == "NL" ? "Helderheid scherm" : "Luminosite ecran"; }
+String t_brightness_saved() { return currentLang == "NL" ? "Helderheid opgeslagen." : "Luminosite enregistree."; }
 String t_signal_num()   { return currentLang == "NL" ? "Nummer" : "Numero"; }
-String t_saved_device() { return currentLang == "NL" ? "Naam en adres opgeslagen." : "Nom et adresse enregistres."; }
+String t_saved_device() { return currentLang == "NL" ? "Scherminstellingen opgeslagen." : "Reglages ecran enregistres."; }
 
 String t_theme()        { return currentLang == "NL" ? "Thema" : "Thème"; }
 String t_theme_title()  { return currentLang == "NL" ? "Interface-thema" : "Thème de l interface"; }
@@ -601,6 +608,12 @@ String currentApIpString() {
 
 String currentScreenDisplayName() {
   return screenCustomName.length() ? screenCustomName : String("Ecran de quai");
+}
+
+void applyScreenBrightness() {
+  if (!displayOk) return;
+  display.ssd1306_command(SSD1306_SETCONTRAST);
+  display.ssd1306_command((uint8_t)screenBrightness);
 }
 
 
@@ -722,6 +735,7 @@ bool initializeDisplayWithAutoI2CDetection() {
   displayOk = display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
   if (displayOk) {
     display.setRotation(2);
+    applyScreenBrightness();
   }
   return true;
 }
@@ -1467,6 +1481,15 @@ String makeThemePage(const String& message) {
   html += "<a href='/savetheme?preset=pm3d'><button type='button'>PM3D</button></a>";
   html += "</div></div>";
 
+  html += "<div class='panel'><strong>" + htmlEscape(t_brightness()) + "</strong><hr>";
+  html += "<div class='toolbar'>";
+  html += "<a href='/brightness?delta=-15'><button type='button' style='font-size:22px;min-width:56px;'>-</button></a>";
+  html += "<div class='badge'>" + String(screenBrightness) + " / 255</div>";
+  html += "<a href='/brightness?delta=15'><button type='button' style='font-size:22px;min-width:56px;'>+</button></a>";
+  html += "</div>";
+  html += "<div class='small' style='margin-top:10px;'>0 = min, 255 = max</div>";
+  html += "</div>";
+
   html += "<div class='panel'><strong>" + htmlEscape(t_custom_colors()) + "</strong><hr>";
   html += "<form method='POST' action='/savetheme'>";
   html += "<div class='theme-grid'>";
@@ -1502,6 +1525,16 @@ void handleRoot() { server.send(200, "text/html; charset=utf-8", makeLanguagePag
 void handleUpdatePage() { server.send(200, "text/html; charset=utf-8", firmwareUpdatePageHtml("")); }
 
 void handleThemePage() { server.send(200, "text/html; charset=utf-8", makeThemePage("")); }
+
+void handleBrightness() {
+  int delta = getParamSafe("delta").toInt();
+  screenBrightness += delta;
+  if (screenBrightness < 0) screenBrightness = 0;
+  if (screenBrightness > 255) screenBrightness = 255;
+  applyScreenBrightness();
+  saveConfig();
+  server.send(200, "text/html; charset=utf-8", makeThemePage(t_brightness_saved()));
+}
 
 void handleSaveTheme() {
   String preset = getParamSafe("preset");
@@ -1792,6 +1825,7 @@ void setup() {
   server.on("/", HTTP_GET, handleRoot);
   server.on("/main", HTTP_GET, handleMain);
   server.on("/theme", HTTP_GET, handleThemePage);
+  server.on("/brightness", HTTP_GET, handleBrightness);
   server.on("/savetheme", HTTP_GET, handleSaveTheme);
   server.on("/savetheme", HTTP_POST, handleSaveTheme);
   server.on("/update", HTTP_GET, handleUpdatePage);
