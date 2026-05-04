@@ -1,13 +1,13 @@
 [
   {
-    "name": "PM3D Passage à niveau - PM3D Thème",
+    "name": "PM3D Passage à niveau - Led Only",
     "version": "1.3",
     "theme": "PM3D",
     "notes": "Version stable de base.",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_Passage_Niveau_WIFI.ino.bin"
   },
   {
-    "name": "PM3D Passage à niveau - Multithèmes",
+    "name": "PM3D Passage à niveau - Leds Only Multithèmes",
     "version": "1.3",
     "theme": "Multi PM3D",
     "notes": "Multicolor",
