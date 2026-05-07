@@ -25,7 +25,7 @@
     },
     {
       "name": "PM3D Sensor",
-      "version": "2026.05.06",
+      "version": "2026.05.07",
       "theme": "Sensor",
       "notes": "Firmware pour capteur PM3D Sensor.",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3_Sensor.ino.bin"
