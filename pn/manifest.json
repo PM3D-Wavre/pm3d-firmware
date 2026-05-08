@@ -18,9 +18,9 @@
     },
     {
       "name": "PM3D PN Sound",
-      "version": "2026.05.06",
+      "version": "2026.05.08",
       "theme": "Sound",
-      "notes": "Firmware pour module sonore PM3D PN Sound.",
+      "notes": "Firmware pour module sonore PM3D PN Sound : reception maitre et page accueil alignee Crossing Gate.",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_sound.ino.bin"
     },
     {
