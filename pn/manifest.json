@@ -4,7 +4,7 @@
   "firmwares": [
     {
       "name": "PM3D PN Crossing Gate",
-      "version": "2026.05.06",
+      "version": "2026.05.08",
       "theme": "Crossing Gate",
       "notes": "Firmware pour module barriere PM3D PN Crossing Gate.",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
