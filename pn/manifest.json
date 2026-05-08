@@ -1,34 +1,34 @@
 {
-  "catalog": "PM3D Passage a Niveau Wi-Fi",
-  "updated": "2026-05-08",
-  "firmwares": [
-    {
-      "name": "PM3D PN Crossing Gate",
-      "version": "2026.05.08.3",
-      "theme": "Crossing Gate",
-      "notes": "Firmware pour module barriere PM3D PN Crossing Gate : reglage individuel luminosite LED gauche, droite et jaune.",
-      "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
-    },
-    {
-      "name": "PM3D PN Light",
-      "version": "2026.05.08",
-      "theme": "Light",
-      "notes": "Firmware pour module lumineux PM3D PN Light : reglage individuel luminosite LED gauche, droite et jaune.",
-      "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_light.ino.bin"
-    },
-    {
-      "name": "PM3D PN Sound",
-      "version": "2026.05.08.2",
-      "theme": "Sound",
-      "notes": "Firmware pour module sonore PM3D PN Sound : reglage individuel luminosite LED gauche, droite et jaune.",
-      "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_sound.ino.bin"
-    },
-    {
-      "name": "PM3D Sensor",
-      "version": "2026.05.07",
-      "theme": "Sensor",
-      "notes": "Firmware pour capteur PM3D Sensor.",
-      "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3_Sensor.ino.bin"
-    }
-  ]
+    "catalog":  "PM3D Passage a Niveau Wi-Fi",
+    "updated":  "2026-05-08",
+    "firmwares":  [
+                      {
+                          "name":  "PM3D PN Crossing Gate",
+                          "version":  "2026.05.08.3",
+                          "theme":  "Crossing Gate",
+                          "notes":  "Firmware pour module barriere PM3D PN Crossing Gate : reglage individuel luminosite LED gauche, droite et jaune.",
+                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
+                      },
+                      {
+                          "name":  "PM3D PN Light",
+                          "version":  "2026.05.08.1",
+                          "theme":  "Light",
+                          "notes":  "Firmware pour module lumineux PM3D PN Light base Crossing Gate : ecoute maitre, accessoires, capteurs, sans element barriere.",
+                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_light.ino.bin"
+                      },
+                      {
+                          "name":  "PM3D PN Sound",
+                          "version":  "2026.05.08.2",
+                          "theme":  "Sound",
+                          "notes":  "Firmware pour module sonore PM3D PN Sound : reglage individuel luminosite LED gauche, droite et jaune.",
+                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_sound.ino.bin"
+                      },
+                      {
+                          "name":  "PM3D Sensor",
+                          "version":  "2026.05.07",
+                          "theme":  "Sensor",
+                          "notes":  "Firmware pour capteur PM3D Sensor.",
+                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3_Sensor.ino.bin"
+                      }
+                  ]
 }
