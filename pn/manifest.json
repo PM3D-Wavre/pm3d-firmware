@@ -1,26 +1,26 @@
 {
   "catalog": "PM3D Passage a Niveau Wi-Fi",
-  "updated": "2026-05-09",
+  "updated": "2026-05-08",
   "firmwares": [
     {
       "name": "PM3D PN Crossing Gate",
-      "version": "2026.05.08.2",
+      "version": "2026.05.08.3",
       "theme": "Crossing Gate",
-      "notes": "Firmware pour module barriere PM3D PN Crossing Gate : delais avant/apres barriere configurables.",
+      "notes": "Firmware pour module barriere PM3D PN Crossing Gate : reglage individuel luminosite LED gauche, droite et jaune.",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
     },
     {
       "name": "PM3D PN Light",
-      "version": "2026.05.06",
+      "version": "2026.05.08",
       "theme": "Light",
-      "notes": "Firmware pour module lumineux PM3D PN Light.",
+      "notes": "Firmware pour module lumineux PM3D PN Light : reglage individuel luminosite LED gauche, droite et jaune.",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_light.ino.bin"
     },
     {
       "name": "PM3D PN Sound",
-      "version": "2026.05.08",
+      "version": "2026.05.08.2",
       "theme": "Sound",
-      "notes": "Firmware pour module sonore PM3D PN Sound : reception maitre et page accueil alignee Crossing Gate.",
+      "notes": "Firmware pour module sonore PM3D PN Sound : reglage individuel luminosite LED gauche, droite et jaune.",
       "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_sound.ino.bin"
     },
     {
