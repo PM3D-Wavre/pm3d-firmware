@@ -4,9 +4,9 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.09.1",
+                          "version":  "2026.05.09.2",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : nom Wi-Fi appareil verrouille et nettoyage des textes interface.",
+                          "notes":  "Firmware PN Crossing Gate : conservation GPIO renforcee apres OTA, OTA raw direct, nom Wi-Fi appareil verrouille.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
@@ -18,9 +18,9 @@
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.09.1",
+                          "version":  "2026.05.09.2",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : nom Wi-Fi appareil verrouille et nettoyage des textes interface.",
+                          "notes":  "Firmware PN Sound : conservation GPIO renforcee apres OTA, OTA raw direct, nom Wi-Fi appareil verrouille.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
