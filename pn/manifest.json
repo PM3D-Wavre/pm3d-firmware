@@ -7,28 +7,28 @@
                           "version":  "2026.05.09.1",
                           "theme":  "Crossing Gate",
                           "notes":  "Firmware PN Crossing Gate : nom Wi-Fi appareil verrouille et nettoyage des textes interface.",
-                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
+                          "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.09.1",
+                          "version":  "2026.05.09.2",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light base Crossing Gate : nom Wi-Fi verrouille, icones et textes corriges, commandes train/pas de train sans barriere.",
-                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_PN_light.ino.bin"
+                          "notes":  "Firmware PN Light : OTA raw direct, verification firmware ESP, nom Wi-Fi verrouille, icones/textes corriges.",
+                          "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
                           "version":  "2026.05.09.1",
                           "theme":  "Sound",
                           "notes":  "Firmware PN Sound : nom Wi-Fi appareil verrouille et nettoyage des textes interface.",
-                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3D_sound.ino.bin"
+                          "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
                           "name":  "PM3D Sensor",
                           "version":  "2026.05.07",
                           "theme":  "Sensor",
                           "notes":  "Firmware pour capteur PM3D Sensor.",
-                          "url":  "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/pn/PM3_Sensor.ino.bin"
+                          "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3_Sensor.ino.bin"
                       }
                   ]
 }
