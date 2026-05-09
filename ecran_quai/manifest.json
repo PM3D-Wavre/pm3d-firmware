@@ -13,4 +13,11 @@
     "notes": "Ajout de fonctionnalités et embellissement d'interface",
     "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Theme_Menu_Reglage_Ecran_Luminosite.ino.bin"
   }
+  {
+    "name": "Version Connected Sensor",
+    "version": "2.1",
+    "theme": "Connected",
+    "notes": "Ajout de fonctionnalités et embellissement d'interface",
+    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/PM3D_Display.ino.bin"
+  }
 ]
