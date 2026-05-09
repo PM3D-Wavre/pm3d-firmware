@@ -1,18 +1,5 @@
 [
-  {
-    "name": "Version de base",
-    "version": "1.0",
-    "theme": "Bleu PM3D",
-    "notes": "Version initiale stable",
-    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Theme_Menu.ino.bin"
-  },
-  {
-    "name": "Version Multithèmes",
-    "version": "1.1",
-    "theme": "Multicolors",
-    "notes": "Ajout de fonctionnalités et embellissement d'interface",
-    "url": "https://github.com/PM3D-Wavre/pm3d-firmware/raw/refs/heads/main/ecran_quai/V_1_0_Theme_Menu_Reglage_Ecran_Luminosite.ino.bin"
-  }
+  
   {
     "name": "Version Connected Sensor",
     "version": "2.1",
