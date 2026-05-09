@@ -11,9 +11,9 @@
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.09.3",
+                          "version":  "2026.05.09.4",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : conservation GPIO renforcee apres OTA, OTA raw direct, icones/textes corriges.",
+                          "notes":  "Firmware PN Light : OTA renforcee via HTTPUpdate, conservation GPIO apres OTA, URL raw direct.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
