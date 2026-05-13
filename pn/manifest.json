@@ -4,30 +4,30 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.13.2",
+                          "version":  "2026.05.13.3",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : diagnostic reception capteurs enrichi avec mapping physique/position et etat des cantons.",
+                          "notes":  "Firmware PN Crossing Gate : bouton mobile GSM/4G dans l'interface de mise a jour avec avertissement sur les frais eventuels.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.13.2",
+                          "version":  "2026.05.13.3",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : diagnostic reception capteurs enrichi avec mapping physique/position et etat des cantons.",
+                          "notes":  "Firmware PN Light : bouton mobile GSM/4G dans l'interface de mise a jour avec avertissement sur les frais eventuels.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.13.2",
+                          "version":  "2026.05.13.3",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : diagnostic reception capteurs enrichi avec mapping physique/position et etat des cantons.",
+                          "notes":  "Firmware PN Sound : bouton mobile GSM/4G dans l'interface de mise a jour avec avertissement sur les frais eventuels.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
                           "name":  "PM3D Sensor",
-                          "version":  "2026.05.13",
+                          "version":  "2026.05.13.1",
                           "theme":  "Sensor",
-                          "notes":  "Firmware PM3D Sensor : diagnostic integre /diag avec etat live, compteurs ESP-NOW, tests ON/OFF/heartbeat et recalibrage du repos GPIO.",
+                          "notes":  "Firmware PM3D Sensor : bouton mobile GSM/4G dans l'interface de mise a jour avec avertissement sur les frais eventuels.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_Sensor_wifi.ino.bin"
                       }
                   ]
