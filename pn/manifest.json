@@ -25,10 +25,10 @@
                       },
                       {
                           "name":  "PM3D Sensor",
-                          "version":  "2026.05.07",
+                          "version":  "2026.05.13",
                           "theme":  "Sensor",
-                          "notes":  "Firmware pour capteur PM3D Sensor.",
-                          "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3_Sensor.ino.bin"
+                          "notes":  "Firmware PM3D Sensor : diagnostic integre /diag avec etat live, compteurs ESP-NOW, tests ON/OFF/heartbeat et recalibrage du repos GPIO.",
+                          "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_Sensor_wifi.ino.bin"
                       }
                   ]
 }
