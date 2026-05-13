@@ -4,23 +4,23 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.13.1",
+                          "version":  "2026.05.13.2",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : test capteurs verrouille sur les slots physiques S1-S4, position capteurs separee de la numerotation de test.",
+                          "notes":  "Firmware PN Crossing Gate : diagnostic reception capteurs enrichi avec mapping physique/position et etat des cantons.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.13.1",
+                          "version":  "2026.05.13.2",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : test capteurs verrouille sur les slots physiques S1-S4, position capteurs separee de la numerotation de test.",
+                          "notes":  "Firmware PN Light : diagnostic reception capteurs enrichi avec mapping physique/position et etat des cantons.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.13.1",
+                          "version":  "2026.05.13.2",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : test capteurs verrouille sur les slots physiques S1-S4, position capteurs separee de la numerotation de test.",
+                          "notes":  "Firmware PN Sound : diagnostic reception capteurs enrichi avec mapping physique/position et etat des cantons.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
