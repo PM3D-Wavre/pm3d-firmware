@@ -1,26 +1,26 @@
 {
     "catalog":  "PM3D Passage a Niveau Wi-Fi",
-    "updated":  "2026-05-13",
+    "updated":  "2026-05-14",
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.13.4",
+                          "version":  "2026.05.14.1",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : OTA mobile navigateur. Le telephone telecharge le firmware via 4G puis l'envoie a l'appareil, avec avertissement forfait.",
+                          "notes":  "Firmware PN Crossing Gate : remise a zero installation, effacement reel accessoires/capteurs, assistant premiere installation pour secondaires et positions capteurs.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.13.4",
+                          "version":  "2026.05.14.1",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : OTA mobile navigateur. Le telephone telecharge le firmware via 4G puis l'envoie a l'appareil, avec avertissement forfait.",
+                          "notes":  "Firmware PN Light : remise a zero installation, effacement reel accessoires/capteurs, assistant premiere installation pour secondaires et positions capteurs.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.13.4",
+                          "version":  "2026.05.14.1",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : OTA mobile navigateur. Le telephone telecharge le firmware via 4G puis l'envoie a l'appareil, avec avertissement forfait.",
+                          "notes":  "Firmware PN Sound : remise a zero installation, effacement reel accessoires/capteurs, assistant premiere installation pour secondaires et positions capteurs.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
