@@ -4,9 +4,9 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.14.6",
+                          "version":  "2026.05.14.7",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : premiere installation avec dessin coherent des positions S1-S4 et pastilles de detection directement placees sur les cantons.",
+                          "notes":  "Firmware PN Crossing Gate : nouvelle detection pendant la remontee de barriere interrompt le retour jaune et relance immediatement la fermeture.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
@@ -18,9 +18,9 @@
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.14.6",
+                          "version":  "2026.05.14.7",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : premiere installation avec dessin coherent des positions S1-S4 et pastilles de detection directement placees sur les cantons.",
+                          "notes":  "Firmware PN Sound : la sonnerie se rearme pendant le retour barriere vers jaune et se relance si un nouveau train impose une fermeture.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
