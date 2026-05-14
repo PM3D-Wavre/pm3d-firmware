@@ -4,23 +4,23 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.14.5",
+                          "version":  "2026.05.14.6",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : raccourcis de correction capteurs depuis le PN pour inverser la logique ou recalibrer le repos du sensor associe.",
+                          "notes":  "Firmware PN Crossing Gate : premiere installation avec dessin coherent des positions S1-S4 et pastilles de detection directement placees sur les cantons.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.14.5",
+                          "version":  "2026.05.14.6",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : raccourcis de correction capteurs depuis le PN pour inverser la logique ou recalibrer le repos du sensor associe.",
+                          "notes":  "Firmware PN Light : premiere installation avec dessin coherent des positions S1-S4 et pastilles de detection directement placees sur les cantons.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.14.5",
+                          "version":  "2026.05.14.6",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : raccourcis de correction capteurs depuis le PN pour inverser la logique ou recalibrer le repos du sensor associe.",
+                          "notes":  "Firmware PN Sound : premiere installation avec dessin coherent des positions S1-S4 et pastilles de detection directement placees sur les cantons.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
