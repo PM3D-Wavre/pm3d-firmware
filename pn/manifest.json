@@ -4,23 +4,23 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.14.3",
+                          "version":  "2026.05.14.4",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : assistant premiere installation avec dessin PN, guidage automatique S1-S4 par pop-up et enregistrement des capteurs detectes.",
+                          "notes":  "Firmware PN Crossing Gate : assistant capteurs simplifie, sans pop-up ni dessin, avec verification detection puis retour au repos pour valider le mode de captation.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.14.3",
+                          "version":  "2026.05.14.4",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : assistant premiere installation avec dessin PN, guidage automatique S1-S4 par pop-up et enregistrement des capteurs detectes.",
+                          "notes":  "Firmware PN Light : assistant capteurs simplifie, sans pop-up ni dessin, avec verification detection puis retour au repos pour valider le mode de captation.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.14.3",
+                          "version":  "2026.05.14.4",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : assistant premiere installation avec dessin PN, guidage automatique S1-S4 par pop-up et enregistrement des capteurs detectes.",
+                          "notes":  "Firmware PN Sound : assistant capteurs simplifie, sans pop-up ni dessin, avec verification detection puis retour au repos pour valider le mode de captation.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
