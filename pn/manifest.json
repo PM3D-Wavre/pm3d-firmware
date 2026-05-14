@@ -4,23 +4,23 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.14.2",
+                          "version":  "2026.05.14.3",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : bouton retour reglage d'usine tout en bas des reglages avances, assistant premiere installation conserve, retrait complet de la mise a jour GSM/4G.",
+                          "notes":  "Firmware PN Crossing Gate : assistant premiere installation avec dessin PN, guidage automatique S1-S4 par pop-up et enregistrement des capteurs detectes.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.14.2",
+                          "version":  "2026.05.14.3",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : bouton retour reglage d'usine tout en bas des reglages avances, assistant premiere installation conserve, retrait complet de la mise a jour GSM/4G.",
+                          "notes":  "Firmware PN Light : assistant premiere installation avec dessin PN, guidage automatique S1-S4 par pop-up et enregistrement des capteurs detectes.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.14.2",
+                          "version":  "2026.05.14.3",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : bouton retour reglage d'usine tout en bas des reglages avances, assistant premiere installation conserve, retrait complet de la mise a jour GSM/4G.",
+                          "notes":  "Firmware PN Sound : assistant premiere installation avec dessin PN, guidage automatique S1-S4 par pop-up et enregistrement des capteurs detectes.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
