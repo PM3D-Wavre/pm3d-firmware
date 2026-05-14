@@ -4,30 +4,30 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.14.1",
+                          "version":  "2026.05.14.2",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : remise a zero installation, effacement reel accessoires/capteurs, assistant premiere installation pour secondaires et positions capteurs.",
+                          "notes":  "Firmware PN Crossing Gate : bouton retour reglage d'usine tout en bas des reglages avances, assistant premiere installation conserve, retrait complet de la mise a jour GSM/4G.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.14.1",
+                          "version":  "2026.05.14.2",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : remise a zero installation, effacement reel accessoires/capteurs, assistant premiere installation pour secondaires et positions capteurs.",
+                          "notes":  "Firmware PN Light : bouton retour reglage d'usine tout en bas des reglages avances, assistant premiere installation conserve, retrait complet de la mise a jour GSM/4G.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.14.1",
+                          "version":  "2026.05.14.2",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : remise a zero installation, effacement reel accessoires/capteurs, assistant premiere installation pour secondaires et positions capteurs.",
+                          "notes":  "Firmware PN Sound : bouton retour reglage d'usine tout en bas des reglages avances, assistant premiere installation conserve, retrait complet de la mise a jour GSM/4G.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
                           "name":  "PM3D Sensor",
-                          "version":  "2026.05.13.2",
+                          "version":  "2026.05.14.1",
                           "theme":  "Sensor",
-                          "notes":  "Firmware PM3D Sensor : OTA mobile navigateur. Le telephone telecharge le firmware via 4G puis l'envoie a l'appareil, avec avertissement forfait.",
+                          "notes":  "Firmware PM3D Sensor : retrait complet de la mise a jour GSM/4G, mise a jour conservee via Wi-Fi local.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_Sensor_wifi.ino.bin"
                       }
                   ]
