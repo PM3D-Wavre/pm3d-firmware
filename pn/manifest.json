@@ -4,9 +4,9 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.15.2",
+                          "version":  "2026.05.15.3",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : premiere installation avec temoins S1-S4 visibles sur le dessin et en barre de controle pendant le passage de la main.",
+                          "notes":  "Firmware PN Crossing Gate : correctif OTA, passage au moteur HTTPUpdate pour eviter l'erreur flash read failed.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
@@ -18,9 +18,9 @@
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.15.2",
+                          "version":  "2026.05.15.3",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : premiere installation avec temoins S1-S4 visibles sur le dessin et en barre de controle pendant le passage de la main.",
+                          "notes":  "Firmware PN Sound : correctif OTA, passage au moteur HTTPUpdate pour eviter l'erreur flash read failed.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
