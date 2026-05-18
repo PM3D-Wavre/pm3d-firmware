@@ -4,23 +4,23 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.17.4",
+                          "version":  "2026.05.18.1",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : preserve les reglages de clignotement existants pendant les mises a jour, garde les valeurs par defaut rouge/jaune et conserve le build Minimal SPIFFS avec OTA.",
+                          "notes":  "Firmware PN Crossing Gate : assistant premiere installation simplifie avec choix accessoires 1/2/3/4, voies 1/2 et capteurs optionnels 0/2/4, conserve les reglages pendant les mises a jour.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Light",
-                          "version":  "2026.05.17.4",
+                          "version":  "2026.05.18.1",
                           "theme":  "Light",
-                          "notes":  "Firmware PN Light : preserve les reglages de clignotement existants pendant les mises a jour, garde les valeurs par defaut rouge/jaune et conserve le build Minimal SPIFFS avec OTA.",
+                          "notes":  "Firmware PN Light : assistant premiere installation simplifie avec choix accessoires 1/2/3/4, voies 1/2 et capteurs optionnels 0/2/4, conserve les reglages pendant les mises a jour.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_light.ino.bin"
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.17.4",
+                          "version":  "2026.05.18.1",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : retablit les clignotements rouge/jaune par defaut, preserve les reglages de clignotement existants pendant les mises a jour, garde le backup des GPIO son et le build Minimal SPIFFS avec OTA.",
+                          "notes":  "Firmware PN Sound : assistant premiere installation simplifie avec choix accessoires 1/2/3/4, voies 1/2 et capteurs optionnels 0/2/4, conserve les reglages GPIO son et clignotement pendant les mises a jour.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
