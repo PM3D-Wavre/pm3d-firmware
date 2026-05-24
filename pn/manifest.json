@@ -1,10 +1,10 @@
 {
     "catalog":  "PM3D Passage a Niveau Wi-Fi",
-    "updated":  "2026-05-17",
+    "updated":  "2026-05-24",
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.18.1",
+                          "version":  "2026.05.24.1",
                           "theme":  "Crossing Gate",
                           "notes":  "Firmware PN Crossing Gate : assistant premiere installation simplifie avec choix accessoires 1/2/3/4, voies 1/2 et capteurs optionnels 0/2/4, conserve les reglages pendant les mises a jour.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
@@ -20,7 +20,7 @@
                           "name":  "PM3D PN Sound",
                           "version":  "2026.05.18.1",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : assistant premiere installation simplifie avec choix accessoires 1/2/3/4, voies 1/2 et capteurs optionnels 0/2/4, conserve les reglages GPIO son et clignotement pendant les mises a jour.",
+                          "notes":  "Firmware PN Sound : correctif commandes PM3D BOX. En manuel, train present lance les rouges clignotants et le son; aucun train remet le jaune clignotant.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
