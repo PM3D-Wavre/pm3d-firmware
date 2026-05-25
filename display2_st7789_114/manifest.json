@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Display 2",
+    "version": "1.2",
+    "theme": "Display2 ST7789",
+    "notes": "Firmware ESP32-C3 pour display 2 ST7789 1.14 RGB avec endpoint /api/update active pour OTA direct depuis GitHub. Edition allegee: interface web simplifiee, logo web reduit, libelles web courts.",
+    "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/display2_st7789_114/PM3D_Display2_ST7789_114_GitHub_OTA_v1_2.bin"
+  }
+]
