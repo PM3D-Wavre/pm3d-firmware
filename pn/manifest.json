@@ -18,9 +18,9 @@
                       },
                       {
                           "name":  "PM3D PN Sound",
-                          "version":  "2026.05.25.2",
+                          "version":  "2026.05.25.4",
                           "theme":  "Sound",
-                          "notes":  "Firmware PN Sound : correction affichage reglages GPIO son BCLK/LRC/DIN, suppression des symboles mal encodes, validation GPIO sans remise a zero des frequences de clignotement, et recherche MAJ limitee aux versions plus recentes.",
+                          "notes":  "Firmware PN Sound : build OTA corrige en partition min_spiffs, reglages GPIO son sans symboles parasites, validation Sound sans ecraser les GPIO LED ni les frequences de clignotement.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_sound.ino.bin"
                       },
                       {
