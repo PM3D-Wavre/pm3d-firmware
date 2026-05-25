@@ -4,9 +4,9 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.25.1",
+                          "version":  "2026.05.25.2",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : demarrage allege, assistant d'installation guidee accessible depuis Configuration, et recherche MAJ limitee aux versions plus recentes.",
+                          "notes":  "Firmware PN Crossing Gate : assistant premiere installation sensor securise, attente du repos capteurs avant capture et blocage de l'enregistrement incomplet.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
@@ -25,9 +25,9 @@
                       },
                       {
                           "name":  "PM3D Sensor",
-                          "version":  "2026.05.14.2",
+                          "version":  "2026.05.25.1",
                           "theme":  "Sensor",
-                          "notes":  "Firmware PM3D Sensor : reception des commandes distantes PN pour inverser la logique capteur ou recalibrer le repos sans ouvrir l'interface sensor.",
+                          "notes":  "Firmware PM3D Sensor : memorisation persistante du mode logique et du repos calibre, y compris apres recalibrage local ou commande distante PN.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_Sensor_wifi.ino.bin"
                       }
                   ]
