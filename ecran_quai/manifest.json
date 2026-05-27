@@ -1,10 +1,10 @@
 [
   {
-    "name": "V2.2 Connected",
-    "version": "V2.2 Connected",
+    "name": "Connected 2.3",
+    "version": "Connected 2.3",
     "theme": "Ecran de quai connecte",
     "notes": "Firmware extrait du module ESP32-C3 COM53 pour ecran de quai 0,96 pouces avec connexion Wi-Fi et OTA.",
-    "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/ecran_quai/V2_2_Connect.ino.bin"
+    "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/ecran_quai/V2_3_Connected.ino.bin"
   },
   {
     "name": "Version de base",
