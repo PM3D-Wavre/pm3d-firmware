@@ -5,26 +5,5 @@
     "theme": "",
     "notes": "",
     "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/ecran_quai/V2_3_Connected.ino.bin"
-  },
-  {
-    "name": "Version de base",
-    "version": "1.0",
-    "theme": "Bleu PM3D",
-    "notes": "Version initiale stable",
-    "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/ecran_quai/V_1_0_Theme_Menu.ino.bin"
-  },
-  {
-    "name": "Version Multithemes",
-    "version": "1.1",
-    "theme": "Multicolors",
-    "notes": "Ajout de fonctionnalites et embellissement d'interface",
-    "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/ecran_quai/V_1_0_Theme_Menu_Reglage_Ecran_Luminosite.ino.bin"
-  },
-  {
-    "name": "Version BOX prioritaire",
-    "version": "1.1.1-BOX",
-    "theme": "Multicolors",
-    "notes": "Ajout des commandes PM3D Box prioritaires: identification, controle et OTA direct GitHub",
-    "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/ecran_quai/V_1_1_1_BOX_Theme_Menu_Reglage_Ecran_Luminosite.ino.bin"
   }
 ]
