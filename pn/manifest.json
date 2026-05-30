@@ -4,9 +4,9 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.30.1",
+                          "version":  "2026.05.30.2",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : correctif retour jaune apres liberation du dernier canton, avec priorite de remontee de barriere maintenue jusqu'au jaune clignotant.",
+                          "notes":  "Firmware PN Crossing Gate : assistant optionnel d'installation automatique au demarrage. Scan des Crossing Gate, Sound et Sensors proches, confirmation avant appairage, choix automatique 1 ou 2 voies et guidage S1/S2/S3/S4 par passage de la main.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
