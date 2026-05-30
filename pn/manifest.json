@@ -4,9 +4,9 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.05.30.3",
+                          "version":  "2026.05.30.4",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : un module neuf ignore les ordres broadcast d'une installation voisine tant qu'il n'a pas ete accouple volontairement. Inclut l'assistant optionnel d'installation automatique au demarrage.",
+                          "notes":  "Firmware PN Crossing Gate : synchronisation LED preservee entre modules accouples grace aux sauvegardes directes ESP-NOW portant le meme numero de sequence que le broadcast. Un module neuf ignore aussi les ordres d'une installation voisine avant accouplement.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
