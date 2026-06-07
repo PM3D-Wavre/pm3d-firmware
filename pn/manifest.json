@@ -4,9 +4,9 @@
     "firmwares":  [
                       {
                           "name":  "PM3D PN Crossing Gate",
-                          "version":  "2026.06.07.1",
+                          "version":  "2026.06.07.2",
                           "theme":  "Crossing Gate",
-                          "notes":  "Firmware PN Crossing Gate : capture S1/S2 fiabilisee dans l'installation guidee des sensors. Une detection recente reste visible brievement pour eviter de rater le capteur pendant la configuration.",
+                          "notes":  "Firmware PN Crossing Gate : bouton Demarrer positions fiabilise. Le guide ne bloque plus sur un sensor actif au repos et accepte les capteurs places dans n'importe quel slot physique.",
                           "url":  "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/refs/heads/main/pn/PM3D_PN_Crossing_Gate.ino.bin"
                       },
                       {
