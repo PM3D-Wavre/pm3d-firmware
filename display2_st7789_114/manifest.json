@@ -1,9 +1,9 @@
 ﻿[
   {
     "name": "Display 2",
-    "version": "2.0",
+    "version": "2.1",
     "theme": "Display2 ST7789 1.14 RGB",
-    "notes": "Firmware Display 2 avec mise a jour en ligne par bouton depuis le serveur PM3D/GitHub. Mode demo actif par defaut, Wi-Fi local conserve pour OTA.",
+    "notes": "Firmware Display 2 avec mise a jour en ligne par bouton depuis GitHub. Corrections countries, parametres avances, OTA latest, profils RFI/SNCF/Adif et derniers ajustements interface.",
     "url": "https://raw.githubusercontent.com/PM3D-Wavre/pm3d-firmware/main/PM3D_Display_2_latest.bin"
   }
 ]
